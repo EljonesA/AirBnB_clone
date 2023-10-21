@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+    font-size: 14px;
+}
+
+.container {
+    flex: 1;
+    max-width: 1000px;
+    width: 700px; /* width of search area */
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 76vh; /* moves footer to bottom */
+}
