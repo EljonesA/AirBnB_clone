@@ -9,7 +9,7 @@
     width: 390px;
     margin: 20px;
     padding: 20px;
-    display: inline-block;
+    display: inline-table;
 }
 
 .container .places article h2 {
@@ -89,4 +89,72 @@
 
 .container .places .description {
     text-align: left;
+}
+
+/* >>>> TASK 9 <<<< */
+.container .places .amenities {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.container .places .amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+}
+
+.container .places .amenities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container .places .amenities li.pet_friendly {
+    background: no-repeat url('../images/icon_pets.png') left center;
+    background-size: 16px; 
+    padding-left: 30px; /* space btwn icon & amenity name */
+    margin-bottom: 10px; /* space btwn amenities */
+}
+
+.container .places .amenities li.tv {
+    background: no-repeat url('../images/icon_tv.png') left center;
+    background-size: 16px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.container .places .amenities li.wifi {
+    background: no-repeat url('../images/icon_wifi.png') left center;
+    background-size: 16px;
+    padding-left: 30px;
+}
+
+.container .places .reviews {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.container .places .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+    padding: 10px;
+}
+
+.container .places .reviews ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container .places .reviews li {
+    margin-bottom: 20px;
+}
+
+.container .places .reviews h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.container .places .reviews p {
+    font-size: 12px;
+    margin-top: 5px;
 }
