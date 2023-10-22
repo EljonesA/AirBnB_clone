@@ -26,4 +26,4 @@
 - https://css-tricks.com/centering-css-complete-guide/
 
 # coder
-- Eljones Aduwa
+- Eljones Aduwa <eljones.odongo@gmail.com>
